@@ -13,14 +13,14 @@ function Layout() {
                 <Sidebar.SidebarLinks>
 
                     <NavLink to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <Icon icon="@custom:crcomm:dashboard" />
+                        <Icon icon="@custom:custome-icon:dashboard-alt" />
                         Dashboard
                     </NavLink>
                 </Sidebar.SidebarLinks>
                 <Sidebar.SidebarLinks>
-                    <NavLink to="/settings/projects" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <Icon icon="@custom:crcomm:settings" />
-                        Settings</NavLink>
+                    <NavLink to="/clients" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <Icon icon="@custom:custome-icon:group" />
+                        Client</NavLink>
                 </Sidebar.SidebarLinks>
             </Sidebar.SidebarContainer>
             <ContentBox>

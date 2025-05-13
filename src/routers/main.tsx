@@ -7,11 +7,11 @@ const routers = [
         element: <DashboardPage />
     },
     {
-        path: '/settings/projects',
+        path: '/client/:id/projects',
         element: <SettingPage.ProjectPage />
     },
     {
-        path: '/settings/projects/:id/client',
+        path: '/clients',
         element: <SettingPage.ClientPage />
     }
 ]

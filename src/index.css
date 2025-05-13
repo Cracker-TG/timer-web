@@ -1,3 +1,38 @@
 body {
   margin: 0 !important;
 }
+
+table {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 2px 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+tfoot {
+  color: gray;
+}
